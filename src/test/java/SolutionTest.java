@@ -28,4 +28,13 @@ public class SolutionTest {
 
         Assert.assertEquals(expected, actual);
     }
+
+    @Test
+    public void countOrdersTest4() {
+        int n = 7;
+        int expected = 681080400;
+        int actual = new Solution().countOrders(n);
+
+        Assert.assertEquals(expected, actual);
+    }
 }
